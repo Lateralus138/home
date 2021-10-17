@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Template Title</title>
+    <meta name="description" content="Flex T">
+    <meta name="author" content="FluxApex|Lateralus138">
+
+    <link rel="stylesheet" href="style/main.css?v=1.0">
+    <link rel="stylesheet" href="style/main.scss?v=1.0">
+    <script src="js/main.js"></script>
+</head>
+
+<body onresize="addEvent(window, 'resize', onResize);" onload="onResize();">
+    <div class="page-container">
+        <div class="top-bar center">
+            <h2>Menu Bar - I will possibly make this collapsable</h2>
+        </div>
+        <div class="main-body-wrapper">
+            <div id="left-menu" class="left" onclick="changeLeftMenu();" onresize="onRes();">
+                <h4 id="left-h4">Menu</h4>
+                <p id="arrow" style="width: 12px;float: right;"></p>
+
+            </div>
+            <div id="ibody-wrap" class="body">
+                <div class="inner-body-wrapper">
+                    <div id="mainHeader" class="header center">
+                        <p>Welcome to The Flux Apex</p>
+                    </div>
+                    <div id="mainBody" class="body">Body</div>
+                    <div id="mainFooter" class="footer center">Footer</div>
+                </div>
+            </div>
+            <div class="right">
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

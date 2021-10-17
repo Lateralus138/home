@@ -1,0 +1,7 @@
+.flexbox-item.header {
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#e0e0e0', GradientType=0);
+}
+
+.flexbox-item.footer {
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#212121', GradientType=0);
+}
